@@ -22,7 +22,7 @@ with MSVC, MinGW, GCC and Clang.
 
 ```sh
 git clone --recurse-submodules https://github.com/opentrack/usbmux.git
-cmake -S opentrack-usbmux -B build
+cmake -S usbmux -B build
 cmake --build build
 ctest --test-dir build
 ```
